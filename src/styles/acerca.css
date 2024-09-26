@@ -1,0 +1,14 @@
+/* #1E1E1E - FONDO
+#D4D4D4 - TEXTO
+#00BFFF - RESALTADO
+#FF4500 - BOTONES
+#333333 - SOMBRA
+Títulos principales: 32-36 px - MONTSERRAT EXTRA BOLD
+Subtítulos: 24-30 px. - MONTSERRAT BOLD/SEMIBOLD
+Texto de cuerpo: 18-24 px. - LATO
+Notas o descripciones adicionales: 16-18 px - LATO */
+
+body{
+    background-color: #1E1E1E !important;
+}
+

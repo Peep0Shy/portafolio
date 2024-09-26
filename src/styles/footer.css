@@ -1,0 +1,71 @@
+/* #1E1E1E - FONDO
+#D4D4D4 - TEXTO
+#00BFFF - RESALTADO
+#FF4500 - BOTONES
+#333333 - SOMBRA
+Títulos principales: 32-36 px - MONTSERRAT EXTRA BOLD
+Subtítulos: 24-30 px. - MONTSERRAT BOLD/SEMIBOLD
+Texto de cuerpo: 18-24 px. - LATO
+Notas o descripciones adicionales: 16-18 px - LATO 
+font-family: "Montserrat", sans-serif;
+font-family: "Lato", sans-serif;*/
+
+.footer{
+    background-color: #d4d4d4; 
+    border-top: solid 3px #FF4500;
+    color: #1E1E1E;
+    width: 100%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.footer--container{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.subcontainer--footer{
+    display: flex; 
+    align-items: center; 
+    gap: 50px;
+    direction: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+}
+.mitad1{
+    padding-right: 50px;  
+}
+.vertical-line--container{
+    display: flex; /* Para alinear la línea y el contenido */
+    align-items: center;
+}
+.vertical-line{
+    width: 3px; /* Ancho de la línea */
+    height:58px; /* Ajusta la altura según lo necesites */
+    background-color: #FF4500; /* Color de la línea */
+}
+.link--media{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #1E1E1E;
+    position: relative; 
+    transition: transform 0.5s ease; 
+    display: inline-block;
+     &:hover{
+        color: #00BFFF;
+        transform: translateY(-3px); 
+     }
+
+}
+
+.fa-brands, .fa-solid, .fa-regular{
+    font-size: 55px;
+
+}
+
+.copy{
+    color: #FF4500;
+}

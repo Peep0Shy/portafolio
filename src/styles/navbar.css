@@ -1,0 +1,78 @@
+/* #1E1E1E - FONDO
+#D4D4D4 - TEXTO
+#00BFFF - RESALTADO
+#FF4500 - BOTONES
+#333333 - SOMBRA
+Títulos principales: 32-36 px - MONTSERRAT EXTRA BOLD
+Subtítulos: 24-30 px. - MONTSERRAT BOLD/SEMIBOLD
+Texto de cuerpo: 18-24 px. - LATO
+Notas o descripciones adicionales: 16-18 px - LATO 
+font-family: "Montserrat", sans-serif;
+font-family: "Lato", sans-serif;
+*/
+
+/* Estilos generales de la navbar*/
+
+.navbar {
+    position: sticky !important;
+    top: 0 !important; 
+    z-index: 1000 !important; 
+    background-color: #1E1E1E; 
+    border-bottom: solid 3px #FF4500;
+    color: #D4D4D4;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.navbar--container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.subcontainer--navbar {
+    display: flex; 
+    align-items: center; 
+    gap: 150px;
+    direction: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+}
+
+.navigation {
+    display: flex; 
+    gap: 200px;
+}
+.navbar--logo{
+    width: 59px;
+}
+.navbar--link{
+    text-decoration: none; 
+    color: #D4D4D4; 
+    position: relative; 
+    transition: transform 0.5s ease; 
+    display: inline-block;
+     &:hover{
+        color: #00BFFF;
+        transform: translateY(-7px); 
+     }
+     &::after{
+        content: ''; 
+        display: block;
+        height: 2px; 
+        background-color: #00BFFF; 
+        width: 0; 
+        transition: width 0.3s ease, transform 0.3s ease; 
+        margin-top: 1px; 
+        position: absolute; 
+        left: 50%; 
+        transform: translateX(-50%); 
+     }
+     &:hover::after{
+        width: 100%;
+        transform: translateX(-50%);
+     }
+}
