@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
       .then(data => {
         document.getElementById('footer--place').innerHTML = data;
 
-        actualizarElementosSegunSesion();
       })
 
 

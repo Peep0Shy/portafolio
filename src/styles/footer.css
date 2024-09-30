@@ -39,13 +39,13 @@ font-family: "Lato", sans-serif;*/
     padding-right: 50px;  
 }
 .vertical-line--container{
-    display: flex; /* Para alinear la línea y el contenido */
+    display: flex; 
     align-items: center;
 }
 .vertical-line{
-    width: 3px; /* Ancho de la línea */
-    height:58px; /* Ajusta la altura según lo necesites */
-    background-color: #FF4500; /* Color de la línea */
+    width: 3px; 
+    height:58px; 
+    background-color: #FF4500; 
 }
 .link--media{
     margin-left: 30px;

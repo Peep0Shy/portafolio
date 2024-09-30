@@ -7,8 +7,7 @@
     <title>Acerca de mi</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="../../public/assets/portafolio_logo.png" type="image/x-icon">
-    <!-- CSS  -->
-    <link rel="stylesheet" href="../styles/acerca.css">
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,12 +24,80 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- CSS  -->
+    <link rel="stylesheet" href="../styles/acerca.css">
+
 </head>
 
 <body>
     <!-- Barra de navegación -->
     <div id="navbar--place"></div>
     <br>
+
+
+    <!-- Main -->
+    <main>
+        <div class="row">
+            <div>
+                <h2>Acerca de mi encabezado</h2>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, impedit qui maiores pariatur quasi, consequatur rerum quisquam tempore nihil reiciendis amet unde officiis cupiditate ullam, beatae nostrum perferendis voluptate quaerat!</p>
+            </div>
+            
+            <br>
+        <!-- este si se ve que cambia  -->
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img  id="#img1" src="https://raw.githubusercontent.com/RafaelLozano/Piedra_papel_tijeras/master/cap/v2.png" class="d-block w-100" alt="imagen 1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizFmCuGXkgJa3II8NMBVvOEn2HLgkhqEQCY0CsQHmB_yupwN4KwbFmfVM8HBgUwsmkIAgh0G36cWBHUOlVTHmhOkwRz1Sl-DHWt265Wh47adjiXzpFtangADGwkB03d3ErSsg5u4JaZsct/s0/LoginEjercicio5_2.png" class="d-block w-100" alt="imagen 2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://diocesanos.es/blogs/equipotic/wp-content/uploads/sites/2/2015/07/Codecademy.jpg" class="d-block w-100" alt="imagen 3">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <br>
+              <section class="next-carousel">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In distinctio temporibus facere cum sint, perspiciatis necessitatibus sed velit corrupti harum ducimus veniam officiis! Libero, nam cumque nobis amet eligendi ipsam?Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit unde earum quos. Corrupti repellat consequatur nam, sit perferendis praesentium a deserunt blanditiis eos consectetur, facilis explicabo dolor, rerum aliquam.</p>
+              </section>
+
+
+
+            <br>
+            
+        </div>
+     </main>
+
+     
     <!-- Footer -->
     <div id="footer--place"></div>
 
@@ -42,6 +109,7 @@
     <!-- Scripts JS --> 
     <script src="../scripts/insertarNavbar.js"></script>
     <script src="../scripts/insertarFooter.js"></script>
+    <script src="../scripts/navigation.js"></script>
 
 </body>
 

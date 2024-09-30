@@ -30,7 +30,6 @@ font-family: "Lato", sans-serif;
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 10px; 
 }
 
 .subcontainer--navbar {
@@ -42,13 +41,34 @@ font-family: "Lato", sans-serif;
     padding: 10px 40px;
 }
 
-.navigation {
+.navbar--navigation {
     display: flex; 
     gap: 200px;
 }
 .navbar--logo{
     width: 59px;
+    border-radius: 5px;
 }
+/* Efectos cambio de color en el nombre */
+@keyframes colorChange {
+    0% { color: #FF6F61; }    
+    10% { color: #FFB74D; }   
+    20% { color: #FF4081; }   
+    30% { color: #64B5F6; }   
+    40% { color: #81C784; }   
+    50% { color: #FFD54F; }   
+    60% { color: #7986CB; }   
+    70% { color: #FF8A65; }   
+    80% { color: #D81B60; }   
+    90% { color: #FFAB40; }   
+    100% { color: #FF6F61; }  
+}
+.navbar--tittle{
+    font-weight: 600;
+    display: inline-block;
+    animation: colorChange 5s infinite;
+}
+/* Efectos de los links de la navbar*/
 .navbar--link{
     text-decoration: none; 
     color: #D4D4D4; 
